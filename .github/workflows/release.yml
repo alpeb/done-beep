@@ -14,5 +14,7 @@ jobs:
       - name: Compile
         id: compile
         uses: rust-build/rust-build.action@7d5b0c135ddb825f7692d4d2d75e598184d15cec
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           RUSTTARGET: x86_64-unknown-linux-musl
