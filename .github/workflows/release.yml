@@ -23,5 +23,5 @@ jobs:
       - uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608
       - uses: taiki-e/upload-rust-binary-action@c53aeb3a143a2b61773f7833bae48f4d66e255ce
         with:
-          bin: done-beep
+          bin: ...
           token: ${{ secrets.GITHUB_TOKEN }}
