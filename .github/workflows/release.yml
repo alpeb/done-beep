@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608
-      - uses: taiki-e/upload-rust-binary-action@c53aeb3a143a2b61773f7833bae48f4d66e255ce
+      - uses: taiki-e/upload-rust-binary-action@f6b013bbda0fb47fb0e7a25a1e437b51971fb241
         with:
           # statically link
           target: x86_64-unknown-linux-musl
